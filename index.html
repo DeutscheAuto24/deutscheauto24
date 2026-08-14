@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DeutscheAuto24 – Fahrzeug einfach und fair verkaufen.">
+  <title>DeutscheAuto24 | Fahrzeug verkaufen</title>
+  <link rel="canonical" href="https://IHRE-DOMAIN.de/">
+  <link rel="icon" href="/DeutscheAuto24.png" type="image/png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="top-stripe"></div>
+  <header><div class="shell nav">
+    <a class="brand" href="/" aria-label="DeutscheAuto24 Startseite"><img src="/DeutscheAuto24.png" alt="DeutscheAuto24"></a>
+    <nav><a href="/">Start</a><a href="/#ablauf">Ablauf</a><a href="/#standorte">Standorte</a><a href="/#anfrage">Anfrage</a></nav>
+    <a class="phone-button nav-cta" data-phone-link href="#">☎ Anrufen</a>
+  </div></header>
+  <main>
+    <section class="hero" id="home"><div class="shell">
+      <div class="eyebrow">Deutschlandweit · fair · unkompliziert</div><h1>Ihr Auto. Ihr Preis.<br><span style="color:var(--gold)">Schnell verkauft.</span></h1>
+      <p>DeutscheAuto24 kauft Gebrauchtwagen, Unfallwagen und Fahrzeuge mit Mängeln. Sie erhalten ein faires Angebot und wir kümmern uns um den Rest.</p>
+      <div class="hero-actions"><a class="button" href="/#anfrage">Fahrzeug bewerten</a><a class="button ghost" href="/#ablauf">So funktioniert's</a><a class="button ghost" href="/#standorte">Standort wählen</a></div>
+      <div class="hero-phone"><div class="contact-buttons">
+        <a class="phone-button" data-phone-link data-phone-text href="#">☎ +49 179 1603951</a>
+        <a class="phone-button" data-email-link href="#" target="_blank" rel="noopener">✉ E-Mail</a>
+        <a class="phone-button" data-wa-link href="#" target="_blank" rel="noopener"><img src="/whatsapp-icon.png" alt="" class="wa-icon"> WhatsApp</a>
+      </div><small>kostenlos · täglich erreichbar</small></div>
+    </div></section>
+    <section id="ablauf"><div class="shell"><div class="section-heading"><div class="eyebrow">Einfacher Ablauf</div><h2>In drei Schritten zum Verkauf</h2><p>Transparent, persönlich und ohne Verkaufsstress.</p></div><div class="steps">
+      <article class="card"><div class="number">01</div><h3>Fahrzeug senden</h3><p>Teilen Sie uns Marke, Modell und Zustand online oder telefonisch mit.</p></article>
+      <article class="card"><div class="number">02</div><h3>Angebot erhalten</h3><p>Wir melden uns zeitnah mit einem unverbindlichen, fairen Angebot.</p></article>
+      <article class="card"><div class="number">03</div><h3>Einfach übergeben</h3><p>Nach Einigung vereinbaren wir die Übergabe – unkompliziert und klar.</p></article>
+    </div></div></section>
+    <section class="section-dark"><div class="shell quote" id="anfrage"><div><div class="eyebrow">Kostenlose Anfrage</div><h2>Was ist Ihr Fahrzeug wert?</h2><p>Starten Sie mit wenigen Angaben. Wir melden uns persönlich bei Ihnen.</p><div class="quote-list"><span>Unverbindliche Bewertung</span><span>Alle Marken und Zustände</span><span>Kein Verkaufsdruck</span></div><div><div class="contact-buttons">
+        <a class="phone-button" data-phone-link data-phone-text href="#">☎ +49 179 1603951</a>
+        <a class="phone-button" data-email-link href="#" target="_blank" rel="noopener">✉ E-Mail</a>
+        <a class="phone-button" data-wa-link href="#" target="_blank" rel="noopener"><img src="/whatsapp-icon.png" alt="" class="wa-icon"> WhatsApp</a>
+      </div></div></div>
+      <form id="vehicle-form" name="fahrzeug-anfrage" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data">
+        <input type="hidden" name="form-name" value="fahrzeug-anfrage">
+        <p class="hp-field"><label>Nicht ausfüllen: <input name="bot-field"></label></p>
+        <div class="form-section-title">Kontaktdaten</div>
+        <div class="field-row"><input name="anrede" placeholder="Anrede (Herr/Frau/Firma)"><input name="name" required placeholder="Name"></div>
+        <div class="field-row"><input name="ort" placeholder="Ort"><input name="plz" placeholder="PLZ"></div>
+        <div class="field-row"><input type="email" name="email" required placeholder="E-Mail Adresse"><input type="tel" name="telefon" required placeholder="Telefon"></div>
+        <div class="form-section-title">Technische Details</div>
+        <div class="field-row"><input name="marke" placeholder="Marke"><input name="modell" placeholder="Modell"></div>
+        <div class="field-row"><input name="fahrzeugtyp" placeholder="Fahrzeugtyp (z. B. SUV, Kombi, Limousine)"><input name="ez" placeholder="EZ (Erstzulassung)"></div>
+        <div class="field-row"><input name="getriebe" placeholder="Getriebe (Manuell/Automatik)"><input name="unfallschaden" placeholder="Unfallschaden? (Ja/Nein)"></div>
+        <div class="field-row"><input name="kraftstoffart" placeholder="Kraftstoffart"><label class="checkbox-field"><input type="checkbox" name="klimaanlage"> Klimaanlage vorhanden</label></div>
+        <div class="field-row"><input name="preisvorstellung" placeholder="Preisvorstellung (€)"><input name="kilometerstand" placeholder="Kilometerstand (km)"></div>
+        <div class="form-section-title">Bilder hochladen</div>
+        <p class="form-note">Bitte laden Sie vorzugsweise Bilder Ihres Fahrzeugs hoch. Aus technischen Gründen können nur Bilder mit den Endungen .jpg, .gif, .png oder .bmp hochgeladen werden.</p>
+        <div class="upload-row"><input type="file" name="bild1" accept=".jpg,.jpeg,.gif,.png,.bmp"><input type="file" name="bild2" accept=".jpg,.jpeg,.gif,.png,.bmp"><input type="file" name="bild3" accept=".jpg,.jpeg,.gif,.png,.bmp"></div>
+        <textarea name="nachricht" placeholder="Weitere Angaben zu Ihrem Fahrzeug (optional)"></textarea>
+        <button class="button" type="submit">Kostenlose Bewertung anfragen</button>
+        <p class="form-note" data-form-status></p>
+      </form>
+      <form name="kontakt-klick" data-netlify="true" hidden>
+        <input type="hidden" name="form-name" value="kontakt-klick">
+        <input name="aktion">
+        <input name="seite">
+      </form>
+    </div></section>
+    <section id="standorte"><div class="shell"><div class="section-heading"><div class="eyebrow">Vor Ort für Sie</div><h2>Autoankauf in Ihrer Stadt</h2><p>Wählen Sie einen Standort für eine eigene, suchfreundliche Stadtseite.</p></div><div class="cities"><a class="city" href="/autoankauf-berlin/">Autoankauf Berlin<small>Fahrzeug in Berlin verkaufen →</small></a><a class="city" href="/autoankauf-hamburg/">Autoankauf Hamburg<small>Fahrzeug in Hamburg verkaufen →</small></a><a class="city" href="/autoankauf-muenchen/">Autoankauf München<small>Fahrzeug in München verkaufen →</small></a><a class="city" href="/autoankauf-koeln/">Autoankauf Köln<small>Fahrzeug in Köln verkaufen →</small></a><a class="city" href="/autoankauf-frankfurt-am-main/">Autoankauf Frankfurt am Main<small>Fahrzeug in Frankfurt am Main verkaufen →</small></a><a class="city" href="/autoankauf-stuttgart/">Autoankauf Stuttgart<small>Fahrzeug in Stuttgart verkaufen →</small></a><a class="city" href="/autoankauf-duesseldorf/">Autoankauf Düsseldorf<small>Fahrzeug in Düsseldorf verkaufen →</small></a><a class="city" href="/autoankauf-leipzig/">Autoankauf Leipzig<small>Fahrzeug in Leipzig verkaufen →</small></a><a class="city" href="/autoankauf-dortmund/">Autoankauf Dortmund<small>Fahrzeug in Dortmund verkaufen →</small></a><a class="city" href="/autoankauf-essen/">Autoankauf Essen<small>Fahrzeug in Essen verkaufen →</small></a><a class="city" href="/autoankauf-bremen/">Autoankauf Bremen<small>Fahrzeug in Bremen verkaufen →</small></a><a class="city" href="/autoankauf-dresden/">Autoankauf Dresden<small>Fahrzeug in Dresden verkaufen →</small></a><a class="city" href="/autoankauf-hannover/">Autoankauf Hannover<small>Fahrzeug in Hannover verkaufen →</small></a><a class="city" href="/autoankauf-nuernberg/">Autoankauf Nürnberg<small>Fahrzeug in Nürnberg verkaufen →</small></a><a class="city" href="/autoankauf-duisburg/">Autoankauf Duisburg<small>Fahrzeug in Duisburg verkaufen →</small></a><a class="city" href="/autoankauf-bochum/">Autoankauf Bochum<small>Fahrzeug in Bochum verkaufen →</small></a><a class="city" href="/autoankauf-wuppertal/">Autoankauf Wuppertal<small>Fahrzeug in Wuppertal verkaufen →</small></a><a class="city" href="/autoankauf-bielefeld/">Autoankauf Bielefeld<small>Fahrzeug in Bielefeld verkaufen →</small></a><a class="city" href="/autoankauf-bonn/">Autoankauf Bonn<small>Fahrzeug in Bonn verkaufen →</small></a><a class="city" href="/autoankauf-muenster/">Autoankauf Münster<small>Fahrzeug in Münster verkaufen →</small></a></div></div></section>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutomotiveBusiness","name":"DeutscheAuto24","telephone":"+491791603951","email":"main.auto24.branch@gmail.com","areaServed":"DE","url":"https://IHRE-DOMAIN.de/"}
+</script>
+  </main>
+  <footer><div class="shell footer-row"><span>© <span id="year"></span> DeutscheAuto24</span><span><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></span></div></footer>
+  <script src="/assets/main.js"></script>
+</body>
+</html>
