@@ -2,11 +2,11 @@
    EDIT YOUR CONTACT DETAILS HERE — this one file controls every page.
    ============================================================== */
 const CONFIG = {
-  phoneDisplay: '+49 179 1603951',
-  phoneLink: '+491791603951',
+  phoneDisplay: '+49 179 1600696',
+  phoneLink: '+491791600696',
   email: 'main.auto24.branch@gmail.com',
   /* WhatsApp number: country code + number, digits only, NO +, NO spaces, NO leading 0 after the country code (e.g. 0170 1234567 -> 4917012345678) */
-  whatsappNumber: '491791603951'
+  whatsappNumber: '491791600696'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
